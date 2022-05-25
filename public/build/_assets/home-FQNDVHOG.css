@@ -1,0 +1,46 @@
+
+
+.container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+
+.green {
+    height: 100vh;
+    background: #000;
+    width: 100vw;
+}
+.green::after {
+    content: "";
+    position: absolute;
+    background-color: #8fb13a;
+    border-bottom-left-radius: 50px 120px;
+    top: 0px;
+    right: 0;
+    height: 80px;
+    width: 200px;
+    transform: rotateZ(15deg) translateX(20px) translateY(-30px);
+   
+}
+
+.check {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    z-index: 2;
+    height: 80px;
+    width: 50px;
+    display: grid;
+    place-items: center;
+}
+
+.image {
+    min-height: 150px;
+    min-width: 150px;
+    background: red;
+}
+
+
+

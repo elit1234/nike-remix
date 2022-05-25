@@ -1,0 +1,18 @@
+
+*,
+*::before,
+*::after {  
+  box-sizing: inherit;
+}
+
+html, body {
+  overflow: hidden;
+  box-sizing: border-box;
+  position: absolute;
+  overflow-y: auto;
+}
+body {
+
+  margin: 0;
+  padding: 0;
+}

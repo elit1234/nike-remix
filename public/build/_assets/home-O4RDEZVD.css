@@ -1,0 +1,26 @@
+.container {
+    height: 100vh;
+    background: #8FB13A;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100vw;
+}
+
+.black {
+    height: 100vh;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100vw;
+}
+
+.black::after {
+    content: "";
+    position: absolute;
+    
+    margin-top: 1rem;
+}

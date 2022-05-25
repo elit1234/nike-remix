@@ -1,0 +1,15 @@
+
+
+.container::before {
+    content: "";
+    position: absolute;
+    height: 90vh;
+}
+
+.wrapper {
+    position: relative;
+    height: 50px;
+    background-color: #000;
+    border-radius: 0px 0px 25px 25px;
+    clip-path: inset(0% -25px 0 -25px);
+}

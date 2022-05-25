@@ -1,0 +1,15 @@
+.container {
+    height: 100vh;
+    min-height: 900px;
+    background: #8FB13A;
+    position: relative;
+    z-index: 1;
+
+}
+
+.black {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+}

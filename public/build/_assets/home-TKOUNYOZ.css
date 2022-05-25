@@ -1,0 +1,50 @@
+
+
+.container::before {
+    content: "";
+    position: absolute;
+    height: 90vh;
+}
+
+.wrapper {
+    position: relative;
+    height: 150px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 0px 0px 25px 25px;
+    clip-path: inset(0% -25px 0 -25px);
+    width: 150px;
+    margin: 0 auto;
+}
+
+
+.green {
+    height: 100vh;
+    background: #000;
+    width: 100vw;
+}
+.green::after {
+    content: "";
+    position: absolute;
+    background-color: #8fb13a;
+    border-bottom-left-radius: 50px 20px;
+    top: 0px;
+    right: 0;
+    height: 60px;
+    width: 140px;
+    
+}
+
+.green::before {
+    content: "";
+    position: absolute;
+    background-color: #8fb13a;
+    top: 80px;
+    right: 10px;
+    height: 40px;
+    width: 120px;
+    border-top-left-radius: 1rem;
+}
+
+
+

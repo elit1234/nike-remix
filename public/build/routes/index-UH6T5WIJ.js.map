@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:C:\\Users\\eli\\Documents\\Javascript\\remixjs\\my-remix-app\\app\\routes\\index.tsx?browser", "../../../app/routes/index.tsx"],
+  "sourcesContent": ["export { default, links } from \"C:\\\\Users\\\\eli\\\\Documents\\\\Javascript\\\\remixjs\\\\my-remix-app\\\\app\\\\routes\\\\index.tsx\";", "import { LinksFunction } from \"@remix-run/node\";\nimport styles from \"~/styles/home.css\";\n\nexport const links: LinksFunction = () => {\n  return [\n    {\n      rel: \"stylesheet\",\n      href: styles,\n    },\n  ];\n};\n\nexport default function Index() {\n  return <div className=\"container\">Home</div>;\n}\n"],
+  "mappings": ";;;;;;AAAA;;;ACAA;;;;;;AAGO,IAAM,QAAuB,MAAM;AACxC,SAAO;AAAA,IACL;AAAA,MACE,KAAK;AAAA,MACL,MAAM;AAAA;AAAA;AAAA;AAKG,iBAAiB;AAC9B,SAAO,oCAAC,OAAD;AAAA,IAAK,WAAU;AAAA,KAAY;AAAA;",
+  "names": []
+}

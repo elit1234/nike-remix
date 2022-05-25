@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:C:\\Users\\eli\\Documents\\Javascript\\remixjs\\my-remix-app\\app\\routes\\index.tsx?browser", "../../../app/routes/index.tsx"],
+  "sourcesContent": ["export { default } from \"C:\\\\Users\\\\eli\\\\Documents\\\\Javascript\\\\remixjs\\\\my-remix-app\\\\app\\\\routes\\\\index.tsx\";", "export default function Index() {\n  return <div className=\"container\">Home</div>;\n}\n"],
+  "mappings": ";;;;;;AAAA;;;ACAA;AAAe,iBAAiB;AAC9B,SAAO,oCAAC,OAAD;AAAA,IAAK,WAAU;AAAA,KAAY;AAAA;",
+  "names": []
+}

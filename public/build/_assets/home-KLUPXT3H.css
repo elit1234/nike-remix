@@ -1,0 +1,65 @@
+
+
+.container {
+    height: 100%;
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+    background: #000;
+
+}
+
+
+
+.green {
+    position: absolute;
+    background-color: #8fb13a;
+    border-bottom-left-radius: 50px 120px;
+    top: 0px;
+    right: 0;
+    height: 80px;
+    width: 200px;
+    transform: rotateZ(15deg) translateX(20px) translateY(-30px);
+   
+}
+
+.check {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    z-index: 2;
+    height: 80px;
+    width: 50px;
+    display: grid;
+    place-items: center;
+    transform: translateY(-80px);
+    opacity: 0;
+
+    transition: transform 0.4s ease, opacity 0.4s ease;    will-change: transform, opacity;
+}
+
+.check.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.image {
+   height: 270px;
+   width: 270px;
+   margin: 0 auto;
+    background: red;
+    transform: scale(0.7);
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    will-change: transform;
+}
+
+.image.active {
+    transform: scale(1);
+}
+
+.image-wrapper {
+    padding-top: 20vh;
+}
+
+
+

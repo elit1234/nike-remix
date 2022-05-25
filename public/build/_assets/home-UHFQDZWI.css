@@ -1,0 +1,50 @@
+
+
+.container {
+    height: 100%;
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+    background: #000;
+
+}
+
+
+
+.green {
+    position: absolute;
+    background-color: #8fb13a;
+    border-bottom-left-radius: 50px 120px;
+    top: 0px;
+    right: 0;
+    height: 80px;
+    width: 200px;
+    transform: rotateZ(15deg) translateX(20px) translateY(-30px);
+   
+}
+
+.check {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    z-index: 2;
+    height: 80px;
+    width: 50px;
+    display: grid;
+    place-items: center;
+    transform: translateY(-40px);
+}
+
+.image {
+   height: 250px;
+   width: 250px;
+   margin: 0 auto;
+    background: red;
+}
+
+.image-wrapper {
+    padding-top: 20vh;
+}
+
+
+
